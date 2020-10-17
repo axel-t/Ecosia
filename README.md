@@ -1,3 +1,3 @@
 # Ecosia
 
-!Ecosia](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Ecosia](https://github.com/axel-t/Ecosia/blob/main/assets/images/capture_ecosia.png?raw=true)
