@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Campton-Light";
+    src: url(/assets/fonts/Campton/CamptonLight.otf);
+}
+
+@font-face {
+    font-family: "Campton-Bold";
+    src: url(/assets/fonts/Campton/CamptonBold.otf);
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Campton-Bold";
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: "Campton-Bold";
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+    padding: 10px 11px 0px 11px;
+    hyphens: auto;
+}
+
+article {
+    font-family: "Campton-Light";
+    width: 280px;
+    height: 425px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(74, 74, 74, .2);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: inherit;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    transform: scale(1.03);
+}
+
+p {
+    padding: 0px 22px 0px 22px;
+    line-height: 1.4;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 178px;
+    width: 280px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.submit {
+    margin-top: 50px;
+}
+
+button {
+    background-color: #2d80dc;
+    border: 1px solid #438de0;
+    padding: 0px 19px 0px 19px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button:hover {
+    background-color: #2d80dc;
+    opacity: 1;
+}
